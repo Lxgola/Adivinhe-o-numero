@@ -1,0 +1,37 @@
+#textinho{
+    position: relative;
+    left: 21.5cm;
+    top: 1cm;
+}
+#formulario{
+    position: relative;
+    left: 20.7cm;
+    top: 2cm;
+}
+#numero{
+    position: relative;
+    height: 1cm;
+    width: 8cm;
+    border-radius: 1cm;
+    border-style: ridge;
+    text-align: center;
+}
+#mandar{
+    position: relative;
+    top: 0.5cm;
+    left: 2.8cm;
+    height: 1.15cm;
+    width: 2.5cm;
+    border-radius: 1cm;
+    border-style: ridge;
+    background-color: white;
+}
+#bg{
+    background-color: rgb(171, 185, 189);
+}
+#linha{
+    position: relative;
+    top: 3.5cm;
+    border-color: black;
+    width: 25cm;
+}
