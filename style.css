@@ -1,6 +1,7 @@
 #textinho{
+    font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 21.5cm;
+    left: 21.1cm;
     top: 1cm;
 }
 #formulario{
@@ -34,4 +35,18 @@
     top: 3.5cm;
     border-color: black;
     width: 25cm;
+}
+#h1novoea{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+    position: relative;
+    left: 18.2cm;
+    top: 7.6cm;
+}
+#h1novoeb{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1cm;
+    position: relative;
+    left: 18.2cm;
+    top: 7.6cm;
 }
