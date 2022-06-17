@@ -8,15 +8,7 @@ function acertou(){
 }
 ;
 function erroua(){
-    var excluira = document.getElementById("#h1novoa");
-    var excluirb = document.getElementById("#h1novoa");
 
-    if (excluira){
-        setTimeout(() => { excluira.remove(); }, 700);
-    }
-    else if (excluirb){
-        setTimeout(() => { excluirb.remove(); }, 700);
-    }
 
     document.body.style.backgroundColor = "white";
 
@@ -27,9 +19,15 @@ function erroua(){
     h1Novo.setAttribute("id", "h1novoea");
     h1Novo.appendChild(conteudoNovo);
 
-    setTimeout(() => { document.body.appendChild(h1Novo); }, 700);
-    setTimeout(() => { document.body.removeChild(h1Novo); }, 2700);
+    var xNovo = document.createElement("h1");
+    var xizinNovo = document.createTextNode("X");
+    xNovo.setAttribute("id", "xnovo");
+    xNovo.appendChild(xizinNovo);
 
+    setTimeout(() => { document.body.appendChild(h1Novo); }, 700);
+    setTimeout(() => { document.body.appendChild(xNovo); }, 700);
+    setTimeout(() => { document.body.removeChild(h1Novo); }, 2700);
+    setTimeout(() => { document.body.removeChild(xNovo); }, 2700);
 
 };
 function erroub(){
@@ -44,10 +42,17 @@ function erroub(){
     h1Novo.setAttribute("id", "h1novoeb");
     h1Novo.appendChild(conteudoNovo);
 
-    setTimeout(() => { document.body.appendChild(h1Novo); }, 700);
-    setTimeout(() => { document.body.removeChild(h1Novo); }, 2700);
+    var xNovo = document.createElement("h1");
+    var xizinNovo = document.createTextNode("X");
+    xNovo.setAttribute("id", "xnovo");
+    xNovo.appendChild(xizinNovo);
 
-}
+    setTimeout(() => { document.body.appendChild(h1Novo); }, 700);
+    setTimeout(() => { document.body.appendChild(xNovo); }, 700);
+    setTimeout(() => { document.body.removeChild(h1Novo); }, 2700);
+    setTimeout(() => { document.body.removeChild(xNovo); }, 2700);
+
+};
 
 function salvarn(){
     var n = document.querySelector('#numero').value;

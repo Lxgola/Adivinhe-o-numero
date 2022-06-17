@@ -3,8 +3,21 @@
 }
 #h1{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1cm;
+    font-size: 1.7cm;
     position: relative;
-    left: 21cm;
-    top: 6.5cm;
+    left: 19.7cm;
+    top: 4.3cm;
+}
+#certinho{
+    font-size: 3.5cm;
+    position: relative;
+    left: 23.5cm;
+    top: 6cm;
+}
+#parabens{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7cm;
+    position: relative;
+    left: 21.3cm;
+    top: 7cm;
 }

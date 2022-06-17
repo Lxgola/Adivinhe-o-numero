@@ -1,13 +1,13 @@
 #textinho{
     font-family: Arial, Helvetica, sans-serif;
     position: relative;
-    left: 21.1cm;
+    left: 21cm;
     top: 1cm;
 }
 #formulario{
     position: relative;
     left: 20.7cm;
-    top: 2cm;
+    top: 9cm;
 }
 #numero{
     position: relative;
@@ -32,21 +32,28 @@
 }
 #linha{
     position: relative;
-    top: 3.5cm;
+    top: 16.5cm;
     border-color: black;
     width: 25cm;
 }
 #h1novoea{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1cm;
-    position: relative;
+    position: fixed;
     left: 18.2cm;
-    top: 7.6cm;
+    top: 15cm;
 }
 #h1novoeb{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1cm;
-    position: relative;
+    position: fixed;
     left: 18.2cm;
-    top: 7.6cm;
+    top: 15cm;
+}
+#xnovo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5cm;
+    position: fixed;
+    left: 23.7cm;
+    top: 3cm;
 }
